@@ -15,7 +15,7 @@ describe 'Shoe' do
     end
 
     it 'only keeps track of unique brands' do
-      Shoe::BRANDS.clear
+      # Shoe::BRANDS.clear
       brands = ["Uggs", "Rainbow", "Nike", "Nike"]
       brands.each do |brand|
         Shoe.new(brand)
